@@ -9,6 +9,7 @@ public class ModConfig implements ConfigData {
     public boolean enabled = true;
     @ConfigEntry.Gui.Tooltip
     public boolean rgbText = false;
+    public boolean showToast = false;
     @ConfigEntry.Gui.Tooltip
     public boolean loadingScreenHide = false;
     public boolean worldLoadingHide = true;
